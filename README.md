@@ -1,6 +1,6 @@
 # React ChatBot Flow Builder
 
-A chatbot flow builder to interactive workflows
+A chatbot flow builder to create interactive workflows
 
 ![ChatBot Screenshots](public/chat_flow_builder.png)
 
