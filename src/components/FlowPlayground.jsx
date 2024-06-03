@@ -4,7 +4,6 @@ import ReactFlow, {
   Background,
   Controls,
   MiniMap,
-  ReactFlowProvider,
   addEdge,
   useEdgesState,
   useNodesState,
@@ -12,11 +11,7 @@ import ReactFlow, {
 import "reactflow/dist/style.css";
 import MessageNode from "./MessageNode";
 import { useDispatch, useSelector } from "react-redux";
-import {
-  setEditing,
-  setNodesList,
-  setSelectedNode,
-} from "../redux/features/nodeSlice";
+import { setEditing, setSelectedNode } from "../redux/features/nodeSlice";
 
 const initialNodes = [];
 
