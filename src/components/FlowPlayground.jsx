@@ -32,7 +32,6 @@ const FlowPlayground = () => {
   const nodesList = useSelector((state) => state.node.nodeList);
 
   useEffect(() => {
-    console.log(nodesList);
     setNodes(nodesList);
   }, [nodesList]);
 
@@ -70,13 +69,11 @@ const FlowPlayground = () => {
 
       //   dispatch(setNodesList(newNode));
       setNodes((nds) => nds.concat(newNode));
-      console.log(nodes);
     },
     [reactFlowInstance]
   );
 
   const handleNodeClick = (e, selectedNode) => {
-    console.log(selectedNode);
     dispatch(setSelectedNode(selectedNode));
 
     dispatch(setEditing(true));

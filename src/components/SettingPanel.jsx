@@ -24,7 +24,6 @@ const SettingPanel = () => {
     );
   };
 
-  console.log(selectedNode);
   return (
     <div
       className="w-full flex flex-col gap-4 "

@@ -21,8 +21,6 @@ function App() {
       return sourceHandles.length === 0 && targetHandles.length === 0;
     });
 
-    console.log(hasEmptyHandles);
-
     if (hasEmptyHandles) {
       setError(true);
       return;

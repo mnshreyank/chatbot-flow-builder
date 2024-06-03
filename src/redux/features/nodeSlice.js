@@ -14,7 +14,6 @@ const nodeSlice = createSlice({
       state.selectedNode = action.payload;
     },
     setEditing: (state, action) => {
-      console.log(state);
       state.isEditing = action.payload;
     },
     setNodesList: (state, action) => {
