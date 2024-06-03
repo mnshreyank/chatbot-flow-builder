@@ -12,6 +12,7 @@ const SettingPanel = () => {
 
   const { setNodes } = useReactFlow();
 
+  //change the label and also update the selected node label in the node list
   const handleChange = (e) => {
     const newLabel = e.target.value;
     setVal(newLabel);

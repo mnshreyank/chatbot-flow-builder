@@ -16,6 +16,7 @@ const nodeList = [
 ];
 
 const SideBar = () => {
+  //Drag the node and store the data
   const handleDragStart = (e, node) => {
     e.dataTransfer.setData("application/reactflow", node.type);
     e.dataTransfer.setData("label", node.label);
