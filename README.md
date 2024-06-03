@@ -10,14 +10,14 @@ A chatbot flow builder to interactive workflows
 
 ## Features
 
-Drag and drop nodes
-Edit node labels
-Connect nodes to create a work flow
-Save the work flow
+- Drag and drop nodes
+- Edit node labels
+- Connect nodes to create a work flow
+- Save the work flow
 
 ## Teachnology and Usage
 
-React with Vite - To build UI
-React Flow - To build react flows
-Tailwind Css - Styling
-Redux - centralised state management tool
+- React with Vite - To build UI
+- React Flow - To build react flows
+- Tailwind Css - Styling
+- Redux - centralised state management tool
