@@ -6,7 +6,7 @@ A chatbot flow builder to create interactive workflows
 
 ## View Live Demo
 
-[ChatBot-Flow_builder](https://chatbot-flow-builder-silk.vercel.app/)
+[ChatBot-Flow-builder](https://chatbot-flow-builder-silk.vercel.app/)
 
 ## Features
 
